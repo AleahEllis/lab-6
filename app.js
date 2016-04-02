@@ -52,7 +52,7 @@ var addIt = function(){
 	var foodItem=document.createElement('div');
 	foodItem.innerHTML=inputFood;
 	document.body.appendChild(foodItem);
-	foodItem.setAttribute("class", "bombae");
+	foodItem.setAttribute("class", "werk");
 	
 	// grocery.push
 	// appendChild
