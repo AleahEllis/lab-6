@@ -37,7 +37,7 @@ grocery.forEach(function(items){ //loop through array
 		listEle.setAttribute("class", "bombae");
 		});
 		
-		
+
 
 //putting everything on the html... Dom Manipulation
 var totalEle = document.createElement('div'); //makes the div
@@ -49,18 +49,22 @@ var addIt = function(){
 	var inputFood=document.getElementById('inputFood').value;//need dot value or else you will get the whole node
 	var inputPrice=document.getElementById('inputPrice').value;
 	var priceToNum=Number(inputPrice);//input price from string to number. important
-	
-	var foodItem=document.createElement('div');
-	foodItem.innerHTML=inputFood;
+
+	var foodItem=document.createElement('div'); //original
+	// var foodItem=grocery.push(inputFood) //new
+	// foodItem.innerHTML=inputFood;//original
+	foodItem.innerHTML=grocery.push(inputFood) //new
 	document.body.appendChild(foodItem);
 	foodItem.setAttribute("class", "werk");
 	
-	grocery.push(inputFood);
+	// grocery.push(inputFood);
 	
 	// appendChild
 };
 
-addIt();
+// function pushItGood(){
+// 	grocery.push(addIt());
+// };
 
 
 
