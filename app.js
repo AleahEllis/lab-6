@@ -66,5 +66,7 @@ var addIt = function(){
 // 	grocery.push(addIt());
 // };
 
+addIt();
+
 
 
