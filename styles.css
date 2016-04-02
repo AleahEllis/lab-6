@@ -1,0 +1,30 @@
+body {
+  background-color: light-grey;
+}
+* {
+  text-align: center;
+}
+.fancy {
+  font-size: 3em;
+  border-left: 8em solid #fa8072;
+  border-right: 8em solid #008080;
+  font-family: sans-serif;
+  text-align: center;
+}
+.bombae {
+  font-size: 3em;
+  font-family: sans-serif;
+  color: #fa8072;
+  text-align: center;
+}
+.werk {
+  font-size: 3em;
+  font-family: sans-serif;
+  color: #008080;
+  text-align: center;
+}
+.beautify {
+  font-family: sans-serif;
+  color: #008080;
+  font-size: 2em;
+}

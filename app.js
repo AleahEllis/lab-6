@@ -37,6 +37,7 @@ grocery.forEach(function(items){ //loop through array
 		listEle.setAttribute("class", "bombae");
 		});
 		
+		
 
 //putting everything on the html... Dom Manipulation
 var totalEle = document.createElement('div'); //makes the div
@@ -54,7 +55,8 @@ var addIt = function(){
 	document.body.appendChild(foodItem);
 	foodItem.setAttribute("class", "werk");
 	
-	// grocery.push
+	grocery.push(inputFood);
+	
 	// appendChild
 };
 
