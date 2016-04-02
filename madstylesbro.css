@@ -19,6 +19,14 @@
 /*	border:1em solid teal;*/
 }
 
+.werk{
+	font-size: 3em;
+	font-family: sans-serif;
+	color: teal;
+	text-align: center;
+
+}
+
 .beautify{
 	font-family: sans-serif;
 	color: teal;

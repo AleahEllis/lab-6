@@ -47,16 +47,18 @@ totalEle.setAttribute("class", "fancy");//setting style attributes to the div
 var addIt = function(){
 	var inputFood=document.getElementById('inputFood').value;//need dot value or else you will get the whole node
 	var inputPrice=document.getElementById('inputPrice').value;
-	var priceToNum=Number(foodPrice);//input price from string to number. important
+	var priceToNum=Number(inputPrice);//input price from string to number. important
 	
 	var foodItem=document.createElement('div');
 	foodItem.innerHTML=inputFood;
 	document.body.appendChild(foodItem);
-	listEle.setAttribute("class", "bombae");
+	foodItem.setAttribute("class", "bombae");
 	
 	// grocery.push
 	// appendChild
-}
+};
+
+addIt();
 
 
 
